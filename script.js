@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         description: "Nuvens altas, finas e delicadas, com aparência de fios de cabelo. São formadas por cristais de gelo."
       },
       cumulonimbus: {
-        name: "Cumulonimbus",
+        name: "Cúmulo-nimbo",
         description: "Nuvens gigantes de tempestade, com grande desenvolvimento vertical. Produzem raios, trovões e chuva forte."
       }
     };
