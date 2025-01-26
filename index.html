@@ -1,0 +1,65 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jogo das Nuvens</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Jogo das Nuvens</h1>
+    <p>Arraste cada nuvem para sua descrição correta!</p>
+    
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+    
+    <div class="game-area">
+      <div class="cloud-pair">
+        <div class="cloud" draggable="true" data-type="cumulus">
+          <img src="cumulos.png" alt="Cúmulos" class="cloud-image">
+        </div>
+        <div class="description-box" data-type="cumulus">
+          Nuvens com aparência fofa e amontoada, com base plana e topo arredondado. 
+          São comuns em dias ensolarados.
+        </div>
+      </div>
+
+      <div class="cloud-pair">
+        <div class="cloud" draggable="true" data-type="stratus">
+          <img src="estratos.png" alt="Estratos" class="cloud-image">
+        </div>
+        <div class="description-box" data-type="stratus">
+          Nuvens em camadas uniformes, acinzentadas, que cobrem todo o céu como um cobertor.
+          Podem produzir chuvisco.
+        </div>
+      </div>
+
+      <div class="cloud-pair">
+        <div class="cloud" draggable="true" data-type="cirrus">
+          <img src="cirros.png" alt="Cirros" class="cloud-image">
+        </div>
+        <div class="description-box" data-type="cirrus">
+          Nuvens altas, finas e delicadas, com aparência de fios de cabelo.
+          São formadas por cristais de gelo.
+        </div>
+      </div>
+
+      <div class="cloud-pair">
+        <div class="cloud" draggable="true" data-type="cumulonimbus">
+          <img src="cumulos-nimbos.png" alt="Cumulonimbus" class="cloud-image">
+        </div>
+        <div class="description-box" data-type="cumulonimbus">
+          Nuvens gigantes de tempestade, com grande desenvolvimento vertical.
+          Produzem raios, trovões e chuva forte.
+        </div>
+      </div>
+    </div>
+
+    <div class="score">Pontos: <span id="points">0</span></div>
+    <button id="reset">Recomeçar</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
