@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Create an object mapping cloud types to their descriptions
     const cloudInfo = {
       cumulus: {
-        name: "Cúmulos",
+        name: "Cúmulus",
         description: "Nuvens com aparência fofa e amontoada, com base plana e topo arredondado. São comuns em dias ensolarados."
       },
       stratus: {
@@ -153,7 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
         description: "Nuvens altas, finas e delicadas, com aparência de fios de cabelo. São formadas por cristais de gelo."
       },
       cumulonimbus: {
-        name: "Cúmulo-nimbo",
+        name: "Cumulonimbus",
         description: "Nuvens gigantes de tempestade, com grande desenvolvimento vertical. Produzem raios, trovões e chuva forte."
       }
     };
